@@ -1,0 +1,49 @@
+body {
+    background-color: beige;
+}
+
+h2 {
+    color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    color: cadetblue;
+    font-family:'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li::first-letter {
+    font-size: 1.5rem;
+}
+
+.best-movie p{
+    font-weight: 700;
+    font-size: 1.1em;
+    color: goldenrod;
+}
+.best-movie span{
+    font-style: italic;
+    color: green;
+    padding-left: 13px;
+}
+
+.fav-movie > li:nth-child(5)::before{
+    content: "1 "
+}
+
+.fav-movie > li:nth-child(4)::before{
+    content: "2 "
+}
+.fav-movie > li:nth-child(3)::before{
+    content: "3 "
+}
+.fav-movie > li:nth-child(1)::before{
+    content: "4 "
+}
